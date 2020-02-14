@@ -1,0 +1,72 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>Menu</title>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/menu.css" />
+
+
+</head>
+
+<body>
+    <div id="main">
+        <header>
+            <div id="logo">
+                <div id="logo_text">
+                    <h1><a href="index.html">Sports Bar and Restaurant</a></h1>
+                </div>
+            </div>
+            <nav>
+                <ul class="sf-menu" id="nav">
+                    <li class="selected"><a href="index.html">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="offers.html">Offers</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+                </nav>
+        </header>
+        <div id="site_content">
+            <ul id="images">
+                <li><img src="images/1.jpg" width="600" height="300" /></li>
+                <li><img src="images/2.jpg" width="600" height="300" /></li>
+                <li><img src="images/3.jpg" width="600" height="300" /></li>
+                <li><img src="images/4.jpg" width="600" height="300" /></li>
+                <li><img src="images/5.jpg" width="600" height="300" /></li>
+                <li><img src="images/6.jpg" width="600" height="300" /></li>
+            </ul>
+            <div id="sidebar_container">
+                <div class="sidebar">
+                    <h3>Latest !!!!</h3>
+                    <h2><a href="menu2.html">Book your Table Now</a></h2>
+
+                </div>
+            </div>
+            
+        </div>
+        <footer>
+            <p>JavaScript Final Project</p>
+            
+        </footer>
+    </div>
+    <p>&nbsp;</p>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/menu.js"></script>
+    <script type="text/javascript" src="js/jquery.easing-sooper.js"></script>
+    <script type="text/javascript" src="js/jquery.sooperfish.js"></script>
+    <script type="text/javascript" src="js/jquery.kwicks-1.5.1.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('#images').kwicks({
+                max: 600,
+                spacing: 2
+            });
+            $('ul.sf-menu').sooperfish();
+        });
+    </script>
+</body>
+
+</html>

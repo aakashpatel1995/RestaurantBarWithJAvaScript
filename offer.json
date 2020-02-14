@@ -1,0 +1,32 @@
+{"offers":[
+	{
+		"full_name": "Holiday Feast (leg)",
+		"image": "images/offer1.jpg", 
+		"title": "The Holiday Feast includes a chicken leg with a side of your choice, bun, BBQ sauce, coleslaw, a mini meat pie and its fruit ketchup and a slice of sugar pie.",
+		"tag_line": "Suggested serving. Limited-time offer."
+	},
+	{
+		"full_name": "Piri-piri St-Burger",
+		"image": "images/offer2.jpg", 
+		"title": "A crispy chicken breast coated in our spicy piri-piri sauce, served on an artisan bun and topped with our famous creamy coleslaw, pickles, lettuce, banana peppers and roasted red pepper spread..",
+		"tag_line": "Served with a side of your choice, BBQ sauce and coleslaw.."
+	},
+	{
+		"full_name": "Champion Tuesdays",
+		"image": "images/offer3.jpg", 
+		"title": "Every Tuesday starting at 4 p.m., kids’ meals in the dining room are only $5. Your little champions will be delighted!.",
+		"tag_line": "Take the benefit and make the children happy!"
+	},
+	{
+		"full_name": "Our Table d'hote",
+		"image": "images/offer4.jpg", 
+		"title": "Create your own full meal with the St-Hubert table d'hote, including:An appetizerA main courseUnlimited beverage*A gourmet desser.",
+		"tag_line": "Suggested serving. Limited-time offer."
+	},
+	{
+		"full_name": "Lunch&GO",
+		"image": "images/offer5.jpg", 
+		"title": "In a hurry for lunch time? Enjoy our Lunch&GO menu, available 7 days a week from 11 a.m. to 3 p.m.",
+		"tag_line": "Remember that you can always take a moment to unwind and add a draft beer or a glass of wine to your meal, at a reduced price for the occasion."
+	}
+]}

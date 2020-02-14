@@ -1,0 +1,369 @@
+@font-face {
+    font-family: Yanone Kaffeesatz;
+    src: url('../fonts/YanoneKaffeesatz-Regular.eot');
+    src: local("Yanone Kaffeesatz"), url('../fonts/YanoneKaffeesatz-Regular.ttf');
+}
+
+@font-face {
+    font-family: News Cycle;
+    src: url('../fonts/NewsCycle-Regular.eot');
+    src: local("News Cycle"), url('../fonts/NewsCycle-Regular.ttf');
+}
+.validation{
+    margin-left: 200px;
+}
+#p{
+    margin-top: 1em;
+    letter-spacing: 0.5px;
+}
+#para{
+    margin-top: 1em;
+}
+#head{
+    margin-top: 0.3em;
+}
+
+html {
+    height: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font: normal .80em arial, sans-serif;
+    background: #fff url(../images/pattern.png) repeat;
+    color: #FFF;
+}
+
+h1 {
+    text-align: center;
+    background-color: black;
+    color: #362C20;
+    letter-spacing: 0em;
+    padding: 0 0 5px 0;
+    font: normal 140% arial, sans-serif;
+    margin: 0 0 15px 0;
+    padding: 15px 0 5px 0;
+    color: #FFF;
+}
+
+h2 {
+    //font-size: 160%;
+    padding: 9px 0 5px 0;
+}
+
+h3 {
+    padding: 5px 0 0 0;
+}
+
+a,
+a:hover {
+    outline: none;
+    text-decoration: underline;
+    color: #09D4FF;
+}
+
+ul {
+    margin: 2px 0 22px 17px;
+}
+
+ul li {
+    list-style-type: circle;
+    margin: 0 0 6px 0;
+    padding: 0 0 4px 5px;
+    line-height: 1.5em;
+}
+
+#main,
+#container,
+#logo,
+#site_content,
+footer {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#main {
+    margin: 5px auto;
+    width: 940px;
+    background: transparent;
+    padding-bottom: 30px;
+}
+
+
+header {
+    background: transparent;
+    height: 130px;
+    margin-bottom: 20px;
+    -moz-border-radius: 7px 7px 7px 7px;
+    -webkit-border: 7px 7px 7px 7px;
+}
+
+#logo {
+    width: 940px;
+    height: 70px;
+    background: transparent;
+    color: #888;
+    padding: 0;
+    float: left;
+}
+
+#logo h1,
+#logo h2 {
+    font: normal 320% 'News Cycle', arial, sans-serif;
+    border-bottom: 0;
+    text-transform: none;
+    margin: 0;
+}
+
+#logo_text h1,
+#logo_text h1 a,
+#logo_text h1 a:hover {
+    padding: 0;
+    color: #FFF;
+    text-decoration: none;
+}
+
+nav {
+    height: 44px;
+    width: 940px;
+    float: right;
+    margin: 0 auto 0 auto;
+    padding: 10px 0px;
+    color: #FFF;
+    background: #000;
+    border-radius: 7px 7px 7px 7px;
+    -moz-border-radius: 7px 7px 7px 7px;
+    -webkit-border: 7px 7px 7px 7px;
+}
+
+#site_content {
+    width: 940px;
+    overflow: hidden;
+    //margin: 0 auto  auto;
+    //padding: 0 0 0 0;
+    
+}
+
+#sidebar_container {
+    float: left;
+    width: 220px;
+    margin: 10px 0 0 0;
+}
+.sidebar li{
+    padding-bottom: 50px;
+}
+.sidebar {
+    float: left;
+    width: 150px;
+    margin: 0 0 17px 0;
+    background: #000;
+    border-radius: 7px 7px 7px 7px;
+    -moz-border-radius: 7px 7px 7px 7px;
+    -webkit-border: 7px 7px 7px 7px;
+    padding: 0 15px 5px 13px;
+}
+
+.sidebar h3,
+.content h1 {
+    padding: 0 15px 20px 0;
+    font: 230% 'News Cycle', arial, sans-serif;
+    text-shadow: #323232 1px 1px;
+    margin: 0 1px;
+    color: #FFF;
+}
+
+.sidebar h3 {
+    color: #FFF;
+    font: 250% 'News Cycle', arial, sans-serif;
+    padding: 0 15px 5px 0;
+}
+
+.content {
+    text-align: left;
+    width: 670px;
+    float: right;
+    font-size: 120%;
+}
+footer {
+    width: 940px;
+    font: 170% 'Yanone Kaffeesatz', arial, sans-serif;
+    height: auto;
+    text-align: center;
+    background-color: black;
+    margin-top: 20px;
+}
+
+footer p {
+    line-height: 1.7em;
+    padding: 0 0 10px 0;
+    color: #FFF;
+}
+
+footer a {
+    color: #FFF;
+    text-decoration: 1px 1px #FFF;
+}
+
+footer a:hover {
+    color: #FFF;
+    text-shadow: none;
+    text-decoration: underline;
+}
+
+.form_settings {
+    margin: 15px 0 0 0;
+}
+
+.form_settings p {
+    padding: 0 0 4px 0;
+}
+
+.form_settings span {
+    float: left;
+    width: 200px;
+    text-align: left;
+}
+
+.form_settings input,
+.form_settings textarea {
+    padding: 5px;
+    width: 299px;
+    font: 100% arial;
+    border: 1px solid #D5D5D5;
+    background: #FFF;
+    color: #47433F;
+    border-radius: 7px 7px 7px 7px;
+    -moz-border-radius: 7px 7px 7px 7px;
+    -webkit-border: 7px 7px 7px 7px;
+}
+#submit{
+    width: 7em;
+    margin-left: 13em;
+}
+.form_settings textarea,
+.form_settings select {
+    font: 100% arial;
+    width: 299px;
+}
+ul#images {
+    margin: 0 15px 10px 0;
+    padding: 0;
+    list-style: none;
+    position: relative;
+}
+
+ul#images li {
+    display: block;
+    overflow: hidden;
+    padding: 0;
+    float: left;
+    width: 155px;
+    height: 300px;
+}
+ul.sf-menu,
+ul.sf-menu * {
+    margin: 0;
+    padding: 0;
+    //margin-left: 55px;
+}
+ul.sf-menu li {
+    display: block;
+    list-style: none;
+    float: left;
+    position: relative;
+}
+ul.sf-menu a {
+    display: block;
+    position: relative;
+}
+
+/* Theming the menu */
+ul#nav li a {
+    padding: 5px 25px 6px 25px;
+    font: 170% 'Yanone Kaffeesatz', arial, sans-serif;
+    text-shadow: 1px 1px #323232;
+    text-decoration: none;
+    color: #FFF;
+    margin-right: 2px;
+}
+/*Images*/
+ul#images {
+    margin: 0 15px 10px 0;
+    padding: 0;
+    position: relative;
+}
+
+ul#images li {
+    display: block;
+    overflow: hidden;
+    padding: 0;
+    float: left;
+    width: 155px;
+    height: 300px;
+    list-style: none;
+}
+
+main {
+	clear: left;
+	padding: 0 20px 20px;
+	width: 525px;
+	float: right;
+    
+}
+main h1 {
+	color: #800000;
+	font-size: 150%;
+	padding: .5em 0 .25em;
+}
+main h2 {
+	font-size: 120%;
+	padding-bottom: .25em;
+    font-size: 40px;
+     
+}
+main p {
+	padding-bottom: .5em;
+    border-bottom: 1px solid white ;
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+main blockquote {
+	padding: 0 2em;
+	font-style: italic;
+}
+main ul {
+	padding: 0 0 1.5em 1.25em;
+}
+main li {
+	padding-bottom: .35em;
+}
+
+main img {
+	float: right;
+	margin: 1em 0 1em 1em;
+	border: 1px solid black;
+}
+
+
+main h4{
+    color:#00FF80;
+    font-size: 20px;
+}
+
+/* the styles for the navigation list */
+
+}
+#nav_list li a {
+	display: block;
+	font-weight: bold;
+	color: red;
+	text-decoration: none;
+	padding: .5em 0 .5em 1em;
+}
+main img{
+    height: 100px;
+}

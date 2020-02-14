@@ -1,0 +1,50 @@
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    background-image: url(../images/pattern.png);
+    background-repeat: repeat
+    width: 850px;
+    margin: 0 auto;
+    border: 2px solid white;
+    padding: 1em 8em 1em;
+    margin-top: 10em;
+    margin-right: 20em;
+    margin-left: 20em;
+}
+#a{
+    color: white;
+}
+
+h1 {
+    font-size: 150%;
+    color: white;
+    margin-bottom: .5em;
+}
+#back{
+    margin-top: 2em;
+    width: auto;
+}
+
+h2 {
+    font-size: 120%;
+    margin-bottom: .25em;
+}
+
+label {
+    float: left;
+    width: 9em;
+}
+
+input,
+select {
+    width: 15em;
+    margin-bottom: 1em;
+}
+
+span {
+    color: white;
+}
+p{
+    text-align: center;
+    color: white;
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>Home</title>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+
+<body>
+    <div id="main">
+        <header>
+            <div id="logo">
+                <div id="logo_text">
+                    <h1><a href="index.html">Sports Bar and Restaurant</a></h1>
+                </div>
+            </div>
+            <nav>
+                <ul class="sf-menu" id="nav">
+                    <li class="selected"><a href="index.html">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="offers.html">Offers</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div id="site_content">
+            <ul id="images">
+                <li><img src="images/1.jpg" width="600" height="300" /></li>
+                <li><img src="images/2.jpg" width="600" height="300" /></li>
+                <li><img src="images/3.jpg" width="600" height="300" /></li>
+                <li><img src="images/4.jpg" width="600" height="300" /></li>
+                <li><img src="images/5.jpg" width="600" height="300" /></li>
+                <li><img src="images/6.jpg" width="600" height="300" /></li>
+            </ul>
+            <div id="sidebar_container">
+                <div class="sidebar">
+                    <h3>What's New ?</h3>
+                    <hr>
+                    <h2>Now you can book your table online also</h2>
+                    <h2>Special meals</h2>
+
+                </div>
+            </div>
+            <div class="content">
+                <h1 id="head">Welcome to the Restaurant</h1>
+                <h2 id="para">Our Restaurant is located in Kitchener downtown, but upon arrival, it’s as though you’ve entered another world.</h2>
+                <p id="p">This lively restaurant offers both inventive and traditional cooking, delivered in a casual yet elegant atmosphere. The restaurant's ambiance is comfortable and appealing, providing quality food, at the right price in an unpretentious way.<br>
+                    <br>
+                    Food: continental cuisine, seasonal features, fresh fish, pastas, vegetarian friendly.
+                    <br>
+                    <br>
+                    Features: premium beers on tap, wide scotch selection, extensive wine list.<br>
+                    <br>
+                    Outside Dining on Southside Patio.</p>
+
+            </div>
+        </div>
+        <footer>
+            <p>JavaScript Final Project</p>
+            
+        </footer>
+    </div>
+    <p>&nbsp;</p>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/jquery.easing-sooper.js"></script>
+    <script type="text/javascript" src="js/jquery.sooperfish.js"></script>
+    <script type="text/javascript" src="js/jquery.kwicks-1.5.1.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('#images').kwicks({
+                max: 600,
+                spacing: 2
+            });
+            $('ul.sf-menu').sooperfish();
+        });
+    </script>
+</body>
+
+</html>
